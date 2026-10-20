@@ -1,0 +1,27 @@
+{
+ "name": "import-check",
+ "version": "1.0.0",
+ "description": "Dead file scanner for Expo / React Native - Pure JS, works on Termux + Node 26",
+ "main": "index.js",
+ "bin": {
+  "importCheck": "./cli.js",
+  "import-check": "./cli.js",
+  "import-check-cli": "./cli.js"
+ },
+ "scripts": {
+  "test": "node cli.js .",
+  "start": "node cli.js ."
+ },
+ "keywords": ["expo", "react-native", "dead-code", "unused-files", "import-check", "termux", "moonhub", "js", "jsx", "ts", "tsx"],
+ "author": "moon",
+ "license": "MIT",
+ "repository": {
+  "type": "git",
+  "url": "https://github.com/henx-byte/import-check"
+ },
+ "engines": {
+  "node": ">=14.0.0"
+ },
+ "files": ["index.js", "cli.js", "README.md", "LICENSE"],
+ "preferGlobal": true
+}
