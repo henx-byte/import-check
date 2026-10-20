@@ -13,7 +13,7 @@ Capek pake `depcheck` / `check-imports` / `knip` yang false positive atau error 
 ### Install Global 
 
 ```bash
-npm install -g github:USERNAME/import-check
+npm install -g github:henx-byte/import-check
 
 # cek
 importCheck --help
@@ -34,7 +34,7 @@ import-check .
 import-check ./src
 
 # tanpa install global, pake npx
-npx github:USERNAME/import-check .
+npx github:henx-byte/import-check .
 ```
 
 ### Pakai sebagai modul
