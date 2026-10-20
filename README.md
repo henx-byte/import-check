@@ -54,4 +54,4 @@ npm uninstall -g import-check
 
 ### License
 
-MIT - bebas pake mon!
+MIT - bebas pake!
